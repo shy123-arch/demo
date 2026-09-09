@@ -1,0 +1,36 @@
+{
+    "action_scaling": {
+        ".*elbow_joint": 1.0,
+        ".*shoulder.*": 1.0,
+        ".*wrist.*": 1.0,
+        ".*hip_roll.*": 0.5,
+        ".*hip_yaw.*": 0.5,
+        ".*hip_pitch.*": 0.5,
+        ".*knee.*": 0.5,
+        ".*waist.*": 0.5,
+        ".*ankle.*": 0.5
+    },
+    "checkpoint_path": "/mnt/data/cpfs/Jensen/project/teleop/HoloTeleop/training/outputs/2026-06-06/05-12-33-G1TRACKING-ppo/wandb/run-20260606_051339-track_medium_long_finetune_0604.1/files/checkpoint_final.pt",
+    "task_name": "G1TRACKING",
+    "in_keys": [
+        "policy"
+    ],
+    "out_keys": [
+        "policy",
+        "priv_pred",
+        "_actor_inp",
+        "_actor_feature",
+        "loc",
+        "scale",
+        "action",
+        "action_log_prob"
+    ],
+    "in_shapes": [
+        [
+            [
+                1,
+                1590
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+# Runtime subset for PICO -> GMR -> lab-sim. Other GMR robot/dataset tools are optional.
+numpy>=1.24
+scipy>=1.14
+mujoco==3.3.7
+mink==0.0.13
+qpsolvers[daqp]
+rich
+loop-rate-limiters
+imageio[ffmpeg]
+pyzmq>=27.1.0
+torch
+pybind11
+setuptools<81
+wheel
